@@ -10,14 +10,14 @@
   margin:0 0 2rem;
 }
 .thankyoupage{
-  width: 31.5rem;
+  /* width: 31.5rem; */
   height: 32.5rem;
   flex-shrink: 0;
-  padding:3rem;
+  /* padding:3rem; */
 
   border-radius: 36px;
   background: #FFF;
-  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25); */
 }
 .thankyoupage h1::first-letter, p::first-letter , button::first-letter{
   text-transform: capitalize;
@@ -145,6 +145,11 @@ span{
   box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
  }
 @media  (width > 800px) {
+  .thankyoupage{
+    width: 31.5rem;
+     padding:3rem;
+      box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+  }
   main{
     display: grid;
     place-content: center;
